@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-size: 12px;
+    font-family: 'Microsoft YaHei';
+    background-color: #ccc;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.top{
+    width: 1000px;
+    height: 40px;
+    line-height: 40px;
+    margin:0px auto
+}
+.top:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+.tops-left{
+    min-width: 300px;
+    min-height: 40px;
+    float: left;
+}
+.top .tops-left > div{
+    float: left;
+    text-indent: 10px;
+}
+.tops-left > div > a{
+    color:#000;
+}
+.middle{
+    width: 1000px;
+    height:2000px;
+    background-color: #fff;
+    margin:0 auto;
+    border:1px solid #ccc;
+}
+.tab-center{
+    min-width: 300px;
+    min-height: 40px;
+    float:right;
+}
+.tab-center ul li{
+     float: left;
+     margin:0  10px;
+}
+.tops-right{
+    min-width: 300px;
+    min-height: 40px;
+}
+.tab-center ul li.zw{
+    font-size: 24px;
+    color:#E74C12;
+}
+.tab-center ul li.sm{
+    font-size: 24px;
+    color:#135F09;
+}
+.tab-center ul li.sw{
+    font-size: 24px;
+    color:#117BC2;
+}
+.tops-right{
+    float: right;
+    text-align: center;
+}
+.tops-right ul li{
+    float: left;
+    margin: 0 10px;
+    padding:0 3px;
+}
+.tops-right ul li b{
+    position: relative;
+    right:-10px;
+}
